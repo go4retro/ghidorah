@@ -118,6 +118,11 @@
 <wire x1="-24.13" y1="25.4" x2="-25.4" y2="24.13" width="0" layer="20" curve="90"/>
 <dimension x1="-25.4" y1="25.4" x2="-25.4" y2="-25.4" x3="-39.40600625" y3="0" textsize="1.778" textratio="10" layer="20"/>
 <dimension x1="-25.4" y1="-25.4" x2="25.4" y2="-25.4" x3="0" y3="-40.64" textsize="1.778" textratio="10" layer="20"/>
+<text x="-5.08" y="-22.86" size="0.8128" layer="25" ratio="10" align="bottom-center">PCB (c)2021 RETRO Innovations
+www.go4retro.com
+CC-BY-SA 4.0</text>
+<text x="8.89" y="22.86" size="0.8128" layer="25" ratio="10" align="bottom-center">Ghidorah
+(c)2020 Boisy Pitre</text>
 </plain>
 <libraries>
 <library name="con-subd">
@@ -1134,4 +1139,10 @@ design rules under a new name.</description>
 </errors>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
